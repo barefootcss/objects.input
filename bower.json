@@ -1,0 +1,28 @@
+{
+  "name": "bare-input",
+  "version": "1.0.0",
+  "authors": [
+    "Eric Harms <barefoot.css@gmail.com>"
+  ],
+  "description": "The input object targets form inputs without needing the [type] selector.",
+  "main": "_objects.input.scss",
+  "keywords": [
+    "barefoot",
+    "oocss",
+    "css",
+    "framework"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/barefootcss/objects.input",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bare-defaults": "^1.0.0",
+    "bare-functions": "^1.0.0"
+  }
+}
