@@ -1,0 +1,35 @@
+// 
+// defaults  
+// ========================================================================== 
+
+$bare-input-border-width:		   	    1px !default;
+$bare-input-border-style:		  	  solid !default;
+$bare-input-border-color:			#cccccc !default;
+$bare-input-border-radius:		        0px !default;
+$bare-input-focus-color:			#e02a2b !default;
+
+/* 
+   #input
+   ========================================================================== */
+
+/**
+ * The input object targets form inputs without needing the [type] selector.
+ *
+ * Usage:
+ *
+ * <input type="text" class="o-input"/>
+ */
+
+ .o-input {
+	display: inline-block;
+    padding: bareRem($bare-sp-xs) bareRem($bare-sp-s);
+    line-height: normal;
+    border: $bare-input-border-width $bare-input-border-style $bare-input-border-color;
+    border-radius: $bare-input-border-radius;
+}
+	
+	.o-input:focus {
+        outline: 0;
+        outline: thin dotted \9;
+        border-color: $bare-input-focus-color;
+	}
