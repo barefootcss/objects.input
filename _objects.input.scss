@@ -1,12 +1,21 @@
 // 
-// defaults  
+// Declarations  
 // ========================================================================== 
 
+//
+// Defaults
+//
 $bare-input-border-width:		   	    1px !default;
 $bare-input-border-style:		  	  solid !default;
 $bare-input-border-color:			#cccccc !default;
 $bare-input-border-radius:		        0px !default;
 $bare-input-focus-color:			#e02a2b !default;
+
+//
+// Features
+//
+
+$bare-input--block:				false !default;
 
 /* 
    #input
@@ -33,3 +42,17 @@ $bare-input-focus-color:			#e02a2b !default;
         border-color: $bare-input-focus-color;
     }
 }
+
+// 
+// #input--block
+// ========================================================================== 
+
+@if ($bare-input--block == true) {
+	
+	.o-input--block {
+		display: block;
+		width: 100%;
+	}
+	
+}
+
