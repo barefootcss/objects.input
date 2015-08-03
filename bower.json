@@ -1,6 +1,6 @@
 {
   "name": "bare-input",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "authors": [
     "Eric Harms <barefoot.css@gmail.com>"
   ],
@@ -22,7 +22,7 @@
     "tests"
   ],
   "dependencies": {
-    "bare-defaults": "^1.0.0",
-    "bare-functions": "^1.0.0"
+    "bare-defaults": "^1.0.1",
+    "bare-functions": "^1.0.1"
   }
 }
