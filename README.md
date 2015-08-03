@@ -13,3 +13,12 @@ Install using Bower:
 Import into project:
 
 	@import "bower_components/bare-input/objects.input";
+
+## Options
+
+**input--block**
+
+The `input--block` option forces an input element to take up 100% of the width.
+
+	<input type="text" class="o-input o-input--block"/>
+	
