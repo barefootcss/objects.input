@@ -35,6 +35,7 @@ $bare-input--block:				false !default;
     line-height: normal;
     border: $bare-input-border-width $bare-input-border-style $bare-input-border-color;
     border-radius: $bare-input-border-radius;
+    vertical-align: middle;
     
     &:focus {
         outline: 0;
